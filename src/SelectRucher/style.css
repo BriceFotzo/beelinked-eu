@@ -1,0 +1,30 @@
+#form-autocomplete{
+    float:left;
+}
+
+.mdb-autocomplete-clear{
+    position: absolute;
+    top:9px; 
+    right:2px;
+    border:none; 
+    background:none
+}
+
+.mdb-autocomplete-wrap {
+    margin-top: -50px;
+    max-height: 120px;
+    box-shadow: 0px 0px 10px #ffc000;;
+    list-style-type: none;
+    padding: 0px;
+    background: white;
+    overflow: auto;
+}
+
+.list-item{
+    background: none;
+    text-align: center;
+}
+
+.alert alert-danger{
+    margin-bottom: 250px;
+}

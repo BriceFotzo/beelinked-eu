@@ -1,0 +1,169 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+/* .navBar{
+    color: #e7a01b;
+} */
+
+.navBar {
+    color: rgba(231, 207, 75, 0.8) !important;
+}
+
+.navbar-brand>img {
+    padding: 2px 6px;
+}
+
+div.jumbotron {
+    margin-bottom: 0;
+    background-color: rgba(231, 207, 75, 0.8);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0.5) 100%);
+    width: -webkit-fill-available;
+}
+
+hr {
+    background-color: aliceblue;
+}
+
+.ics {
+    color: #e7a01b;
+}
+
+.row1 {
+    width: -webkit-fill-available;
+}
+
+.card-title {
+    color: black
+}
+
+body {
+    background-color: #fff6cd;
+}
+
+
+
+
+.card-image{
+    width: -webkit-fill-available !important;
+}
+.react-reveal{
+    width: 30%;
+}
+.headJumbo {
+    background-image: url('../assets/images/wooden-bee-hives.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.jumboTilte{
+    color:white !important
+}
+
+
+.nav-item-home{
+    font-weight: 500 !important;
+}
+
+.row2.container.col-12{
+    margin-top: 30px;
+}
+
+.WeeklyWeather{
+    display: flex;
+    flex-direction: row;
+}
+.CurrentWeather{
+    display: flex;
+    flex-direction: row;
+}
+.CurrentWeatherText{
+    font-size: 70px;
+}
+.CurrentWeatherBox{
+    display: flex;
+    flex-direction: row;
+}
+.WeatherDetails{
+    margin-left:30px;
+    text-align: left;
+}
+
+.WeatherDetailsTypo{
+    margin:1px;
+}
+.ApiDetailsTypo{
+    margin:3px;
+}
+.WeatherCard{
+    border:1px solid rgba(255,192,0,0.1);
+    border-radius: 5px;
+    padding:10px;
+    background-color: rgba(255,192,0,0.5);
+}
+
+#mapId{
+    height: 300px;
+    width: 900px;
+}
+.leaflet-container .leaflet-marker-pane img{
+    background: #282c34;
+    border:0;
+    border-radius: 5px;
+}
+
+.ApiDetailsTitle{
+    font-weight: 800;
+}
+
+
+.bee {
+    position: absolute;
+    top: 20vh;
+    width: 75px;
+    height: 80px;
+    /* background: url(../assets/images/logo.svg.svg); */
+     background: url(//cdn.ficsystems.com/_new/common/3.0/images/characters/earthday-bee.svg); 
+    animation: walk-cycle 0.1s infinite steps(6), move 10s forwards linear;
+}
+
+@-webkit-keyframes walk-cycle {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -450px 0;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-10vw, 10vh);
+    }
+    15% {
+        transform: translate(0vw, 15vh);
+    }
+    30% {
+        transform: translate(10vw, 20vh);
+    }
+    45% {
+        transform: translate(20vw, 15vh);
+    }
+    60% {
+        transform: translate(30vw, 10vh);
+    }
+    75% {
+        transform: translate(35vw, 5vh);
+    }
+    90% {
+        transform: translate(40vw, 0vh);
+    }
+    100% {
+        transform: translate(45vw, 5vh);
+    }
+}
+

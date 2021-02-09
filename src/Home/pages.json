@@ -1,0 +1,193 @@
+
+  [{
+      "id": 1,
+      "title": "Découverte",
+      "access": "0",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "La vie dans la ruche",
+        "link": "/vie-dans-la-ruche",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mes apiculteurs",
+        "link": "/apiculteurs",
+        "done":"A vérifier"
+      },
+      {
+        "title": "Ma formation",
+        "link": "/formation",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mon forum",
+        "link": "/forum",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Ma ruche virtuelle",
+        "link": "ma-ruche-virtuelle",
+        "done":"Non Entamé"
+      }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mes modules",
+      "access": "1",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "Commandes",
+        "link": "/commandes",
+        "done":"A vérifier"
+      },
+      {
+        "title": "Installation",
+        "link": "/installation",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "SAV",
+        "link": "/sav",
+        "done":"A vérifier"
+      }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mes ruchers",
+      "access": "2",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "Création",
+        "link": "/BeehouseManagement",
+        "done":"A vérifier"
+      },
+      {
+        "title": "Météo",
+        "link": "/meteo",
+        "done":"A vérifier"
+      },
+      {
+        "title": "Mes étiquettes",
+        "link": "/mes-etiquettes",
+        "done":"Non Entamé"
+      }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mes ruches",
+      "access": "2",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "Création",
+        "link": "#",
+        "done":"A vérifier"
+      },
+      {
+        "title": "Tableau de bord",
+        "link": "/dashboard",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Compte rendu",
+        "link": "/Rapports",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mes notifications",
+        "link": "/mes-notifications",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mon matériel",
+        "link": "/mon-materiel",
+        "done":"Entamé"
+      }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mes demarches",
+      "access": "2",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "Déclaration de ruches",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Convention d’occupation du ruche",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mon syndicat apicole",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mon service vétérinaire",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Mon vétérinaire",
+        "link": "#",
+        "done":"Non Entamé"
+      }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Shopping",
+      "access": "0",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "Acheter du miel",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Acheter du matériel",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": " Acheter un traitement",
+        "link": "#",
+        "done":"Non Entamé"
+      },
+      {
+        "title": "Faire une analyse",
+        "link": "#",
+        "done":"Non Entamé"
+      }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mon Agenda",
+      "access": "2",
+      "link": "#",
+      "dropdown": true,
+      "submenu": [{
+        "title": "Mes tâches",
+        "link": "#",
+        "done":"Entamé"
+      },
+      {
+        "title": "Mes rappels",
+        "link": "#",
+        "done":"Non Entamé"
+      }
+      ]
+    }]
+  
